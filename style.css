@@ -1,0 +1,88 @@
+body {
+    background-color: 	#383838;
+}
+
+* {
+    transition: all .2s linear;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+button {
+    font-size: 3rem;
+    margin: 0 10px;
+    padding: 10px 30px;
+}
+
+p {
+    font-size: 5rem;
+}
+
+ul li {
+    font-size: 3rem;
+}
+
+ul li span {
+    padding: 0 10px;
+    color: white;
+    background: #ff5353;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ul li span:hover {
+    background: red;
+}
+
+.stop, .reset, .lap {
+    display: none;
+}
+
+.time .start {
+    background-color: orange;
+    color: white;
+}
+
+.time .start:hover {
+    background-color: 	#FF8C00;
+    color: white;
+}
+
+
+.time .lap:hover {
+    background-color: 	#FF8C00;
+    color: white;
+}
+
+
+.time .stop:hover {
+    background-color: 	#FF8C00;
+    color: white;
+}
+
+.time .reset:hover {
+    background-color: 	#FF8C00;
+    color: white;
+}
+
+.time .stop {
+    background-color: orange;
+    color: white;
+}
+
+.time .lap {
+    background-color: orange;
+    color: white;
+}
+
+.time .reset {
+    background-color: orange;
+    color: white;
+}
+
+.timer {
+    color: white;
+}
